@@ -1,0 +1,21 @@
+{
+  "name": "@tanishqmanuja/monet-web",
+  "version": "0.0.1",
+  "description": "Android's MD3 Monet color scheme generator",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "play": "cd playground && npm run dev"
+  },
+  "author": "tanishqmanuja",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "culori": "^2.0.3"
+  }
+}
